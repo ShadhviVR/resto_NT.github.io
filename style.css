@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	background-image: url("images/background.jpg");
+}
+.section-padding {
+	padding: 100px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(67, 56, 56, 0.768);
+	z-index: 1;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.nav-link a:hover {
+	color: white;
+}
+
+.navbar-light .navbar-brand {
+	color: wheat;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: wheat;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: wheat;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: wheat;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: white;
+}
+
+.nav-item::after {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 2px;
+	background: #fec400;
+	transition: 0.4s
+}
+
+.nav-item:hover::after {
+	width: 100%
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #fec400
+}
+
+.nav-link {
+	padding: 25px 5px;
+	transition: 0.2s
+}
+
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
+.price {
+	color: rgb(145, 224, 173);
+}
+
+.about-text h2 {
+	color: white;
+}
+
+.about-text p {
+	color: wheat;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-header h2 {
+	color: white;
+}
+
+.card-title {
+	color: rgb(90, 85, 85);
+}
+
+#menu h1, h2, h3, h4, h5, h6 { 
+	color: whitesmoke; 
+	margin: 0px 0px 15px 0px; 
+	font-weight: 400; 
+	font-family: 'Zilla Slab', serif; 
+}
+
+#menu h1 { 
+	font-size: 38px; 
+	line-height: 48px; 
+}
+
+#menu h2 { 
+	font-size: 36px; 
+	line-height: 42px; 
+}
+
+#menu h3 { 
+	font-size: 26px; 
+	line-height: 36px; 
+}
+
+#menu h4 { 
+	font-size: 20px; 
+	line-height: 26px; 
+}
+
+#menu h5 { 
+	font-size: 16px; 
+}
+
+#menu h6 { 
+	font-size: 12px; 
+}
+
+#menu p { 
+	margin: 0 0 24px; 
+	line-height: 1.6; 
+}
+
+#menu p:last-child { 
+	margin: 0px; 
+}
+
+#menu ul, ol { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#menu a { 
+	text-decoration: none; 
+	color: #e9f011; 
+	-webkit-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	transition: all 0.3s; 
+}
+
+#menu a:focus, a:hover { 
+	text-decoration: none; 
+	color: #1aa644; 
+}
+
+
+.menu-block { 
+	margin-bottom: 30px; 
+}
+
+.menu-title { 
+	border-bottom: 3px solid #e0e6e3; 
+	margin-bottom: 36px; 
+	padding-bottom: 10px; 
+}
+
+.menu-title-custom {
+	border-bottom: 3px solid #e0e6e3; 
+	margin-bottom: 23px; 
+	padding-bottom: 10px; 
+}
+
+.menu-content { 
+	border-bottom: 1px solid #e0e6e3; 
+	margin-bottom: 30px; 
+}
+
+.dish-content { 
+	margin-top: 12px; 
+	margin-bottom: 40px; 
+}
+
+.dish-meta { 
+	font-size: 12px; 
+	text-transform: uppercase; 
+	display: block; 
+	width: 210px; 
+	line-height: 1.7; 
+	color: white;
+}
+
+.dish-title { 
+	margin-bottom: 6px; 
+	font-size: 15px; 
+	text-transform: uppercase; 
+	font-weight: 500; 
+	position: relative; 
+	color: yellow;
+}
+
+.dish-price p {
+	color: rgb(145, 224, 173);
+}
+
+.well-block .dish-meta { 
+	width: 100%; 
+}
+
+
+.my-form {
+	color: wheat;
+}
+.my-form .btn-default {
+	background-color: #968c30;
+	color: #fff;
+	border-radius: 0;
+}
+.my-form .btn-default:hover {
+	background-color: #4498C6;
+	color: #fff;
+}
+.my-form .form-control {
+	border-radius: 0;
+}
+
+.fas {
+	color: rgb(145, 224, 173);
+}
+.px-xl-3 {
+	color: wheat;
+}
+
+
+@media (max-width:768px){
+    .container .popup img{
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		bottom: 370px;
+	}
+	.carousel-caption p {
+		width: 100%;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+	.img-area img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.carousel-caption {
+		bottom: 125px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+	.carousel-caption p {
+		width: 100%;
+		line-height: 1.6;
+		font-size: 12px;
+	}
+	.about-text {
+		padding-top: 50px;
+	}
+	.card {
+		margin-bottom: 30px;
+	}
+}
